@@ -1,0 +1,37 @@
+h1{
+    color: aqua;
+}
+
+.parent{
+    display: flex;
+    margin-left: 250px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: thistle;
+}
+
+@media screen and (min-width: 300px) and (max-width : 400px) {
+    h1{
+        color: yellowgreen
+    }
+    .parent{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width : 800px) {
+    h1{
+        color: red
+    }
+}
